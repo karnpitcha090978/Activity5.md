@@ -1,0 +1,14 @@
+Start
+mystnunber = 3
+SEND'Please enter guess number' TO DISPLAY
+RECEIVE guess FROM KEYBOARD
+IF guess > 10 THEN
+   SEND'Too high! Your guess must be between 1 and 10' TO DISPLAY
+ELSE
+ IF guess = mystnumber THEN
+ SEND'Well done! You guessed correctly' TO DISPLAY
+ElSE
+ SEND'Bad luck! The orrect number is + mystnumber' TO DISPLAY
+ END IF 
+ END IF
+ END IF
